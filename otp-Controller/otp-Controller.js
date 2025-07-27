@@ -1,7 +1,7 @@
 // 📁 otp-Controller/otp-Controller.js (Corrected for Brevo/Email OTP 2FA)
 const { sendOTPEmail } = require("../utils/sendEmail");
 const { generateAndStoreOTP } = require("../utils/generateOTP");
-const User = require("../models/User");
+const User = require("../models/user");
 const OTP = require("../models/otp");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
