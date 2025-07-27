@@ -15,7 +15,7 @@ const {
 } = require("../otp-Controller/otp-Controller");
 const bodyParser = require("../utils/bodyParser");
 const ChatHistory = require("../models/chatHistory");
-const User = require("../models/User"); // Import User model to fetch user status
+const User = require("../models/user"); // Import User model to fetch user status
 
 // ✨ NEW - Our Security Guard Middleware ✨
 // This function checks the JWT and adds the user's info to the request.
